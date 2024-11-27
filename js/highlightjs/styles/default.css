@@ -1,18 +1,81 @@
-/*
+/* Base Blog Styling */
 
-Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+/* Body and Typography */
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
 
-*/
+/* Header Styling */
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #000;
+}
+
+header .subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+header .post-meta {
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 0.5rem;
+}
+
+/* Main Content Styling */
+main {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+main p {
+  margin: 1.2rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+main a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+/* Highlight.js Syntax Highlighting */
 
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   background: #F0F0F0;
+  border-radius: 5px;
+  margin: 1.2rem 0;
 }
-
-
-/* Base color: saturation 0; */
 
 .hljs,
 .hljs-subst {
@@ -21,6 +84,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 
 .hljs-comment {
   color: #888888;
+  font-style: italic;
 }
 
 .hljs-keyword,
@@ -31,7 +95,6 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 .hljs-name {
   font-weight: bold;
 }
-
 
 /* User color: hue: 0 */
 
@@ -62,7 +125,6 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   color: #BC6060;
 }
 
-
 /* Language color: hue: 90; */
 
 .hljs-literal {
@@ -76,7 +138,6 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   color: #397300;
 }
 
-
 /* Meta color: hue: 200 */
 
 .hljs-meta {
@@ -87,13 +148,19 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   color: #4d99bf;
 }
 
-
 /* Misc effects */
-
 .hljs-emphasis {
   font-style: italic;
 }
 
 .hljs-strong {
   font-weight: bold;
+}
+
+/* Add padding to inline code for better readability */
+code {
+  background: #f8f8f8;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.95rem;
 }
