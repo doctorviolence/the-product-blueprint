@@ -15,22 +15,24 @@ body {
 }
 
 .post-title {
-    font-size: 2.4rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: #000;
+  font-size: 2.6rem; /* Slightly larger for more impact */
+  font-weight: 900; /* Maximum boldness */
+  color: #000; /* Pure black for a strong presence */
+  letter-spacing: -0.5px; /* Slightly tighter spacing for a "solid" look */
+  margin-bottom: 0.5rem;
 }
 
 .post-subtitle {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #666;
-    margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400; /* Lighter weight for contrast with the main title */
+  color: #666;
+  margin-top: 0.5rem;
 }
 
 .post-meta {
-    font-size: 0.9rem;
-    color: #999;
+  font-size: 0.9rem;
+  color: #999;
+  margin-top: 0.5rem;
 }
 
 /* Post Content */
