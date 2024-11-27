@@ -8,15 +8,6 @@ body {
     padding: 0;
 }
 
-/* Header Image Styling */
-.header-image {
-  max-width: 70px; /* Adjust to fit the design */
-  height: auto; /* Maintain aspect ratio */
-  display: block;
-  margin: 0 auto 1rem auto; /* Centre align and add spacing */
-  border-radius: 50%; /* Make the image circular if square */
-}
-
 /* Post Header */
 .post-header {
     text-align: center;
